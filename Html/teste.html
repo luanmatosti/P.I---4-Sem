@@ -35,13 +35,15 @@
 
     </header>
 
-    <section class="container"> <!-- sessão ou div do conteúdo central da página -->
+    <section class="container">
+        <!-- sessão ou div do conteúdo central da página -->
 
-        <header class="header"> <!-- conteúdo de cabeçalho -->
+        <header class="header">
+            <!-- conteúdo de cabeçalho -->
             <h1>Efeito Carrossel - HTML & CSS</h1>
         </header>
 
-        <main class="main"> 
+        <main class="main">
 
             <section class="galery">
                 <div class="fotos">
@@ -57,10 +59,83 @@
 
         <footer class="footer">
             <address>
-                Desenvolvimento: <a href="mailto:elaine.figueiredo@ceharmonia.com.br"> Prof Elaine Figueiredo - Trilha Digital Leaders</a> &copy; 2021
+                Desenvolvimento: <a href="mailto:elaine.figueiredo@ceharmonia.com.br"> Prof Elaine Figueiredo - Trilha
+                    Digital Leaders</a> &copy; 2021
             </address>
         </footer>
     </section>
+    <section>
+        <form>
+            Nome: <input type="text" name="nome" />
+            <br>
+            Senha: <input type="password" name="senha" />
+            <br>
+            E-mail: <input type="email" name="usermail" />
+            <br>
+            URL: <input type="url" name="homepage" />
+            <br>
+            Submeter o form: <input type="submit" value="Enviar" />
+            <br>
+            <input name="oculto" type="hidden" value="algumacoisa" /><input type="checkbox" name="carros"
+                value="Camaro" />Camaro
+            <br>
+            <input type="checkbox" name="carros" value="Ferrari" />Ferrari
+            <BR>
+            <input name="botao" type="button" value="Clique aqui" />
+            <BR>
+            <input name="arquivo" type="file" />
+            <br>
+            <input name="imagem" type="image" src="../img/maverick.jpg" />
+            <BR>
+            <input type="radio" name="genero" value="F" />Feminino <br />
+            <input type="radio" name="genero" value="M" />Masculino
+        </form>
+        <form>
+            <fieldset>
+                <legend>Informações pessoais: </legend>
+                Primeiro nome:
+                <br>
+                <input type="text" name="firstname" value="Maria">
+                <br /> Último nome:
+                <br>
+                <input type="text" name="lastname" value="Aparecida">
+                <br />
+                <br />
+                <input type="submit" value="Enviar">
+                <br>
+                <button type="button">
+                </button><img src="../img/nissa350z.jpg" width="204" height="204">
+                </button>
+                <br>
+                <select>
+                    <option value="Java">Java</option>
+                    <option value="PHP">PHP</option>
+                    <option value="JSP">JSP</option>
+                    <option value="HTML">HTML</option>
+                </select>
+                <br>
+                <select>
+                    <optgroup label="Server-side">
+                        <option value="PHP">PHP</option>
+                        <option value="JSP">JSP</option>
+                    </optgroup>
+                    <optgroup label="Client-side">
+                        <option value="HTML">HTML</option>
+                    </optgroup>
+                </select>
+                <br>
+                <textarea rows="8" cols="70" name="msg"></textarea>
+
+
+            </fieldset>
+        </form>
+        <form action="demo_form.asp">
+            <input type="text" name="user" placeholder="Digite seu Usuário" /><br />
+            <input type="text" name="senha" placeholder="Digite sua Senha" /><br />
+            <input type="submit" value="Submit" />
+          </form> 
+    </section>
+    <input type="button" value="Clique aqui" onclick="alert('Olá......')">
 </body>
 
 </html>
